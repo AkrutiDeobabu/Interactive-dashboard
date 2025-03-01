@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map Dashboard</title>
+    
+    <!-- Leaflet.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Map Section -->
+        <div id="map"></div>
+
+        <!-- Stats Panel -->
+        <div class="stats-panel">
+            <h2>Dashboard Stats</h2>
+            <p><strong>Total Markers:</strong> <span id="total-markers">0</span></p>
+            <p><strong>Selected Location:</strong> <span id="location-name">None</span></p>
+            <p><strong>Coordinates:</strong> <span id="coordinates">N/A</span></p>
+            <p><strong>Most Selected Location:</strong> <span id="most-selected">N/A</span></p>
+        </div>
+    </div>
+
+    <!-- Leaflet.js Script -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
